@@ -1,4 +1,4 @@
 alias reload!='. ~/.zshrc'
-alias s='git status'
 alias ..='cd ..'
+alias g='git'
 
