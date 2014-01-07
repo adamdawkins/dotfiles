@@ -6,7 +6,7 @@ if (( $+commands[git] ))
 then
   git="$commands[git]"
 else
-  git="/usr/bin/git"
+  git="/usr/bin/local/git"
 fi
 
 git_branch() {
