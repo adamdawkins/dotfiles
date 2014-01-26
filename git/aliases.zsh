@@ -9,6 +9,7 @@ fi
 # The rest of my fun git aliases
 alias glog="git log --pretty=format:'%Cred%h%Creset %s %C(yellow)%an%Creset' --graph"
 alias gp='git push origin HEAD'
+alias gpa='git push -u origin --all'
 alias gd='git diff'
 alias ga='git add'
 alias gc='git commit'
