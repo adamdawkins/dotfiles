@@ -1,4 +1,5 @@
 alias reload!='. $HOME/.zshrc'
+alias a='ack'
 alias ..='cd ..'
 alias g='git'
 alias s='gs'
