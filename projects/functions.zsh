@@ -7,11 +7,13 @@ function mvhq () {
 }
 
 function marvin () {
-  cd ~/development/marvinops/
+  cd ~/development/marvinops/marvin
 }
 
-function launchio () {
-  cd ~/development/launch/
+function fashion () {
+  cd ~/development/newin/myfashioninbox2
 }
 
-
+function bullet () {
+  cd ~/code/tutorials/meteor/bullets
+}
