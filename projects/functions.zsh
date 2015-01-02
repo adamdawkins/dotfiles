@@ -6,16 +6,8 @@ function mvhq () {
   cd ~/development/mint-velvet/applications/mvhq/$1
 }
 
-function marvin () {
-  cd ~/development/marvinops/mcp
-}
-
 function fashion () {
   cd ~/development/newin/myfashioninbox2
-}
-
-function bullet () {
-  cd ~/code/tutorials/meteor/bullets
 }
 
 function ape () {
