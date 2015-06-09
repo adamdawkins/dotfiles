@@ -1,0 +1,13 @@
+#!/bin/sh
+function help () {
+    echo "    jazz init                  - include jasmine in the project";
+    echo "    jazz create FunctionName   - creates ./src/FunctionName.js ./spec/FunctionNameSpec.js";
+    echo "    jazz run                   - runs tests in browser";
+}
+
+if [ $1 ]
+then 
+  echo "hello $1"
+else
+  help
+fi

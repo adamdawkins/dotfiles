@@ -7,7 +7,7 @@ function mvhq () {
 }
 
 function marvin () {
-  cd ~/development/marvinops/marvin
+  cd ~/development/marvinops/mcp
 }
 
 function fashion () {
@@ -16,4 +16,20 @@ function fashion () {
 
 function bullet () {
   cd ~/code/tutorials/meteor/bullets
+}
+
+function ape () {
+  cd ~/development/mint-velvet/projects/mailchimp/apebuilder
+}
+
+function engage () {
+  cd ~/development/mint-velvet/applications/mint-engage
+}
+
+function outfits () {
+  cd ~/development/mint-velvet/applications/outfits
+}
+
+function spacetalk () {
+  cd ~/code/meteor/SpaceTalk
 }
