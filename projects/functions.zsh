@@ -3,7 +3,7 @@ function mint () {
 }
 
 function mvhq () {
-  cd ~/development/mint-velvet/applications/mvhq
+  cd ~/development/mint-velvet/applications/mvhq/$1
 }
 
 function marvin () {

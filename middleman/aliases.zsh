@@ -1,1 +1,1 @@
-alias mm='middleman'
+alias mm='bundle exec middleman'
