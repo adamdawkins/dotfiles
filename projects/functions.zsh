@@ -42,3 +42,21 @@ function outfits () {
 function spacetalk () {
   cd ~/code/meteor/SpaceTalk
 }
+
+function zoom_image () {
+# typeset -a product_ids
+  prefix="http://www.mintvelvet.co.uk/pws/client/images/responsive/catalogue/$1/1200px/"
+  wget ${prefix}$1.jpg
+  for i in {1..3}
+  do
+    wget ${prefix}$1_${i}.jpg
+  done
+}
+
+function proto () {
+  cd ~/code/meteor/prototyping
+}
+
+function focuster () {
+  cd ~/development/focuster
+}
