@@ -16,7 +16,7 @@ function ape () {
 }
 
 function engage () {
-  cd ~/development/mint-velvet/applications/mint-engage
+  cd ~/development/mint-velvet/applications/engage
 }
 
 function outfits () {

@@ -24,3 +24,6 @@ alias grh='git reset HEAD'
 alias feature='git flow feature'
 alias release='git flow release'
 alias hotfix='git flow hotfix'
+
+alias bfg='java -jar ~/development/bfg-1.12.13.jar'
+
