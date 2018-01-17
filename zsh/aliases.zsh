@@ -2,8 +2,10 @@ alias reload!='. $HOME/.zshrc'
 alias ..='cd ..'
 alias g='git'
 alias s='gs'
-alias nom='npm cache clean && rm -rf node_modules && mkdir node_modules && touch node_modules/.metadata_never_index && npm install'
 
 alias o='open'
 alias mkd='mkdir -p'
 alias mmv='noglob zmv -W'
+
+alias count_files='ls -F |grep -v / | wc -l'
+alias dirsize='du -sh'
