@@ -1,1 +1,1 @@
-export PATH="$PATH:~/.local/bin/hlint"
+export PATH="~/.local/bin:$PATH"
