@@ -6,3 +6,4 @@ alias nom='npm cache clean && rm -rf node_modules && mkdir node_modules && touch
 
 alias o='open'
 alias mkd='mkdir -p'
+alias mmv='noglob zmv -W'
