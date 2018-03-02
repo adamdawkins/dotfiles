@@ -1,1 +1,1 @@
-alias hlint='~/.local/bin/hlint'
+# alias hlint='~/.local/bin/hlint'
