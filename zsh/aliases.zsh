@@ -10,3 +10,5 @@ alias mmv='noglob zmv -W'
 
 alias count_files='ls -F |grep -v / | wc -l'
 alias dirsize='du -sh'
+
+alias vi='vim'
