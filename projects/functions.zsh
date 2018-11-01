@@ -13,3 +13,7 @@ function ape () {
 function engage () {
   cd ~/development/mint-velvet/applications/engage
 }
+
+function mack() {
+ack $1 -l --ignore-dir=.meteor
+}
