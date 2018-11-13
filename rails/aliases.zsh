@@ -1,3 +1,4 @@
+alias r='rails'
 alias guard='bundle exec guard'
 
 alias warren='rails' # warren g migration
