@@ -1,5 +1,6 @@
 alias r='rails'
 alias b='bundle exec'
+alias bi='bundle install'
 alias guard='bundle exec guard'
 
 alias warren='rails' # warren g migration
