@@ -1,0 +1,2 @@
+FIFO=${1:-"/tmp/cmds"}
+rm -fr $FIFO
