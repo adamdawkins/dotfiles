@@ -38,3 +38,7 @@ alias theytookthelotmate='git push -u origin --all --follow-tags'
 
 alias bfg='java -jar ~/development/bfg-1.12.13.jar'
 
+function takethelotmate () {
+  git remote set-url origin $1
+  theytookthelotmate
+}
