@@ -18,5 +18,5 @@ session_exists() {
 			  if ! session_exists; then
 				    (TMUX='' tmux new-session -Ad -s "$session_name")
 						  fi
-							  tmux switch-client -t "$session_name"
+							  tmux  switch-client -t "$session_name"
 								fi
