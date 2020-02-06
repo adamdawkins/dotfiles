@@ -1,13 +1,7 @@
-# Use `hub` as our git wrapper:
-#   http://defunkt.github.com/hub/
-hub_path=$(which hub)
-if (( $+commands[hub] ))
-then
-  alias git=$hub_path
-fi
-
 # The rest of my fun git aliases
 alias glog='git log --pretty=format:'\''%Cred%h%Creset %ad %s %C(yellow)%an%Creset'\'' --graph --date=relative'
+alias g='git'
+alias s='gs'
 alias gp='git push origin HEAD'
 alias gpa='git push -u origin --all'
 alias gd='git diff'
